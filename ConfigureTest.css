@@ -1,0 +1,189 @@
+.box{
+    background-color: #F0F0F0;;
+    padding-top: 1%;
+    margin-top: 5px;
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow:  0 0 10px  rgba(150, 150, 150, 0.1); 
+    
+   
+   
+}
+
+main{
+    margin-top: 150px;
+}
+
+#box2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+
+.mainBox{
+    height: 100%;
+    width: 100%;
+margin-top: 0px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.textInput{
+
+
+
+  width: 50%;
+  min-width: 200px;
+    padding: 5px 10px;
+    margin: 10px 0 10px 0;;
+   
+    display: inline-block;
+    border-radius: 5px;
+    
+    border: none;
+    outline: none;
+    box-shadow:  0 0 10px  rgba(150, 150, 150, 0.1); 
+
+}
+
+
+#testName{
+    padding: 15px;
+    padding-right: 80px;
+    margin-top: 0;
+    margin-bottom: 2%;
+    
+
+}
+
+.textAnswer{
+    margin-left: 93px;
+}
+
+
+
+
+
+
+
+
+.questionBox{
+    background-color: #F0F0F0;
+    padding-top: 1%;
+    margin: 20px 0 20px 0;;
+    width: 80%;
+    border-radius: 5px;
+    height: auto;
+    padding: 30px;
+    box-shadow:  0 0 10px  rgba(150, 150, 150, 0.1); 
+    
+}
+
+.background{
+
+ margin-left: 10px;
+
+}
+
+legend, .boldLabels{
+    font-size: medium;
+    font-weight: 600; 
+    margin: 10px ;
+
+}
+legend{
+    margin-bottom: 3px ;
+}
+
+input[type=number],input[type=datetime-local],select
+{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    box-shadow:  0 0 10px  rgba(150, 150, 150, 0.1); 
+    
+}
+
+
+input[type=radio] {
+    margin: 0 5px 0 10px;
+}
+
+.boxContent{
+  
+    padding: 30px
+}
+
+.radioLabel{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+
+.addButton{
+float: right;
+border: none;
+outline: none;
+color: #222222;
+font-size: 40px;
+font-weight: 600;
+margin: -30px -20px 0px 0px
+
+}
+
+button:active{
+    outline: none;
+    border: none;
+}
+
+.mcqLabel{
+    width: 20% ; 
+    min-width: 200px;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0;
+    border: none;
+    outline: none;
+    box-shadow:  0 0 10px  rgba(150, 150, 150, 0.1); 
+}
+
+.mcqBox{
+ margin-left: 70px;
+ margin-top: 20px;
+
+}
+.mcqBox input {
+    margin-left: 0;
+}
+
+.addMcq{
+border: none;
+outline: none;
+outline: none;
+color: #222222;
+font-size: 24px;
+font-weight: 600;
+padding-top: 2px;
+}
+
+.mcq{
+min-width: 300px; 
+
+}
+
+
+
+.hide{
+    display: none;
+}
+

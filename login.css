@@ -1,0 +1,93 @@
+.mainBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    height: 100vh;
+   
+}
+
+.boxb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+  
+}
+
+input{
+    margin-bottom: 10px;
+ 
+}
+
+.boxa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.boxc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+
+#formLogo{
+    align-self: center;
+    margin-bottom: 20px;
+    font-weight: 800;
+
+}
+
+input{
+    box-shadow:  0 0 10px  rgba(150, 150, 150, 0.15);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    outline: rgba(150, 150, 150, 0.2) solid 1px;
+    
+  }
+
+label{
+ font-weight: 600;
+}
+
+#login{
+    background-color: #222222;
+    color: white;
+    padding: 10px;
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+    box-shadow:  0 0 10px  rgba(150, 150, 150, 0.15);
+    align-self: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 900px) { 
+    .boxa, .boxc{
+      display: none;
+    }
+
+    .mainBox{
+      
+        grid-template-columns: 1fr;
+       
+       
+    }
+  
+    
+   }

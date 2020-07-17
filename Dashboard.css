@@ -1,0 +1,100 @@
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+   margin-left: 8vw;
+   padding-top: 67px !important;
+  
+   
+  
+   
+}
+
+.mainBox{
+display: inline-block;
+margin-top: 100px;
+}
+
+
+
+
+#line1{
+    width: 80%;
+    margin: 20px 0 5px 0;;
+    background-color: #222222;
+    height: 2px;
+    border: none;
+    
+    
+}
+
+#line2{
+    margin:0;
+    width: 30%;
+    background-color: #F0F0F0;
+    height: 2px;
+    border: none;
+    
+}
+
+.box1{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+   
+
+}
+
+.testCard{
+    width: 150px;
+    height: 170px;
+    box-shadow:  0 0 10px  rgba(75, 75, 75, 0.1);
+    margin: 20px 10px 20px 10px;
+
+}
+
+.testCard:hover{
+    box-shadow:  0 0 10px  rgba(160, 160, 160, 0.5);
+}
+
+.testInfo{
+   
+    margin: 10px 0 0 10px;
+    padding-top: 15px;
+}
+
+.testName{
+font-weight: 600;
+font-size: 30px;
+margin-bottom: 5px;
+}
+
+.date{
+    color: #22222281;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+#plus{
+    background-color: #F0F0F0;
+    color: #222222;
+    font-size: 64px ;
+    border: none;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    
+}
+
+#plus:hover{
+    box-shadow:  0 0 10px  rgba(75, 75, 75, 0.2);
+}
+
